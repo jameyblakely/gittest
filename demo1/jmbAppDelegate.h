@@ -9,6 +9,9 @@
 #import <Cocoa/Cocoa.h>
 
 @interface jmbAppDelegate : NSObject <NSApplicationDelegate>
+@property (weak) IBOutlet NSTextField *ctlTrackingNumber;
+- (IBAction)Track:(id)sender;
+- (IBAction)Clear:(id)sender;
 
 @property (assign) IBOutlet NSWindow *window;
 

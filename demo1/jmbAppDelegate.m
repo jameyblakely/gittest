@@ -15,4 +15,12 @@
     // Insert code here to initialize your application
 }
 
+- (IBAction)Track:(id)sender {
+    
+    [_ctlTrackingNumber setStringValue:@"Test"];
+}
+
+- (IBAction)Clear:(id)sender {
+    [_ctlTrackingNumber setStringValue:@"blah"];
+}
 @end

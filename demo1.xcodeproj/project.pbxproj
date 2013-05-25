@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BAC35CE216D2DB7300507F31 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC35CE116D2DB7300507F31 /* Cocoa.framework */; };
+		BAC35CE216D2DB7300507F31 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC35CE116D2DB7300507F31 /* Cocoa.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		BAC35CEC16D2DB7300507F31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAC35CEA16D2DB7300507F31 /* InfoPlist.strings */; };
 		BAC35CEE16D2DB7300507F31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC35CED16D2DB7300507F31 /* main.m */; };
 		BAC35CF216D2DB7300507F31 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BAC35CF016D2DB7300507F31 /* Credits.rtf */; };
